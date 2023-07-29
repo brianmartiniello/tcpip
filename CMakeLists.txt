@@ -1,7 +1,8 @@
-cmake_minimum_required(VERSION 3.0)  # You can adjust the required CMake version here
-project(TCPIP)           # Replace "YourProjectName" with the actual name of your project
+cmake_minimum_required(VERSION 3.5)  # You can adjust the required CMake version here
+project(TCPIP C CXX)  # Set C and C++ as the languages for the project
 
-# Set C++ standard (change to the version you want to use, e.g., 11, 14, 17, etc.)
+# Set C and C++ standard (change to the version you want to use, e.g., 11, 14, 17, etc.)
+set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 
 # Add your source files here (replace "main.cpp" with your actual source files)
